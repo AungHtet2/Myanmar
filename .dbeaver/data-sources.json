@@ -1,0 +1,41 @@
+{
+	"folders": {},
+	"connections": {
+		"postgres-jdbc-198bd64b421-24c9d0ba1fe7f818": {
+			"provider": "postgresql",
+			"driver": "postgres-jdbc",
+			"name": "Myanmar_Monthly_food_price",
+			"save-password": true,
+			"configuration": {
+				"host": "localhost",
+				"port": "5432",
+				"database": "Myanmar_Monthly_food_price",
+				"url": "jdbc:postgresql://localhost:5432/Myanmar_Monthly_food_price",
+				"configurationType": "MANUAL",
+				"home": "postgresql-x64-17",
+				"type": "dev",
+				"closeIdleConnection": true,
+				"provider-properties": {
+					"@dbeaver-show-non-default-db@": "false"
+				},
+				"auth-model": "native"
+			}
+		}
+	},
+	"connection-types": {
+		"dev": {
+			"name": "Development",
+			"color": "255,255,255",
+			"description": "Regular development database",
+			"auto-commit": true,
+			"confirm-execute": false,
+			"confirm-data-change": false,
+			"smart-commit": false,
+			"smart-commit-recover": true,
+			"auto-close-transactions": true,
+			"close-transactions-period": 1800,
+			"auto-close-connections": true,
+			"close-connections-period": 14400
+		}
+	}
+}

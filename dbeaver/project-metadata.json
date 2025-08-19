@@ -1,0 +1,1 @@
+{"resources":{"Scripts/Script.sql":{"default-datasource":"postgres-jdbc-198bcf8411c-21d844ddd7246d5b","default-catalog":"Myanmar_Monthly_food_price","default-schema":"public"},"Scripts/Spatiotemporal Analysis.sql":{"default-datasource":"postgres-jdbc-198bcf8411c-21d844ddd7246d5b","default-catalog":"Myanmar_Monthly_food_price","default-schema":"public"}}}
