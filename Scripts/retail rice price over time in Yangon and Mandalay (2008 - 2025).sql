@@ -5,6 +5,7 @@ SELECT
 		EXTRACT(year FROM (price_date)) AS Year,
 		round(avg(mfp.o_rice * 1.91 * 1.63),2) AS Retail_Rice_Price_for_1Kg
 FROM myanmar_food_prices mfp 
+WHERE adm1_name = 'Yangon' OR adm1_name = 'Mandalay'
 GROUP BY adm1_name,EXTRACT(year FROM (price_date))
 ORDER BY 2 asc;
 

@@ -7,6 +7,7 @@ WITH Yangon_Rice_Price AS
 (
 	SELECT 
 		EXTRACT(month FROM (price_date)) AS MONTH_2025,
+		avg(mfp.o_rice * 2) AS rice_1_Pyi,
 		avg(mfp.o_rice * 1.91 * 1.63) AS Rice_1_kg_price
 	FROM myanmar_food_prices mfp 
 	WHERE EXTRACT(YEAR FROM (price_date)) = '2025' AND adm1_name = 'Yangon'
